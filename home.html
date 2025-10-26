@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - Startup Design Hub</title>
+</head>
+<body>
+    <h2>Welcome, {{ username }}!</h2>
+    <ul>
+        <li><a href="{{ url_for('ai_design') }}">AI Design Services</a></li>
+        <li><a href="{{ url_for('logo_design') }}">Logo Design Services</a></li>
+        <li><a href="{{ url_for('logout') }}">Logout</a></li>
+    </ul>
+</body>
+</html>
